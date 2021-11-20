@@ -5,14 +5,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Deepak</title>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
+
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
+
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="default.css">
+
+    <link rel="stylesheet" href="default.css" type="text/css">
+
+    <link id="theme-style" rel="stylesheet" type="text/css" href="">
 </head>
 
 <body>
@@ -119,13 +129,73 @@
 
     <section class="s1">
         <div class="main-container">
-            Portfolio
+            <h3 style="text-align: center;">Some of my past projects</h3>
+
+            <div class="post-wrapper">
+
+                <div>
+                    <div class="post">
+                        <img class="thumbnail" src="images/Disc Bot.png " alt="">
+                        <div class="post-preview">
+                            <h6 class="post-title">Discord Bot</h6>
+                            <p class="post-intro">Learnt how to use discord.py and made an interactive discord bot that
+                                respnds to custom commands.</p>
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="post">
+                        <img class="thumbnail" src="images/Phish.png" alt="">
+                        <div class="post-preview">
+                            <h6 class="post-title">PhishProtector</h6>
+                            <p class="post-intro">Tested and used various machine learning algorithms to classify
+                                websites
+                                as either Phishing or Safe by using a combination of 31 web scraped features about each
+                                website.</p>
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="post">
+                        <img class="thumbnail" src="images/Galaxy.png" alt="">
+                        <div class="post-preview">
+                            <h6 class="post-title">Endless Rummer Game</h6>
+                            <p class="post-intro">Worked with Kivy framework for developing mobile apps, made an
+                                endless runner with the framework.</p>
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
         </div>
     </section>
 
     <section class="s2">
         <div class="main-container">
-            Contact
+            <h3 style="text-align: center;">Get In Touch</h3>
+
+            <form id="contact-form">
+                <label>Name</label>
+                <input type="text" class="input-field" name="name">
+
+                <label>Subject</label>
+                <input type="text" class="input-field" name="subject">
+
+                <label>Email</label>
+                <input type="text" class="input-field" name="email">
+
+                <label>Message</label>
+                <textarea class="input-field" name="message"></textarea>
+
+                <input id="submit-btn" type="submit" value="Send">
+            </form>
         </div>
     </section>
 </body>
