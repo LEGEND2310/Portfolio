@@ -254,7 +254,7 @@ h6 {
 
 #preview {
     width: 300px;
-    border: 2.5px solid #17a2b8;
+    border: 2.5px solid var(--borderColor);
     background-color: var(--previewBg);
     padding: 15px;
     position: relative;
@@ -264,7 +264,7 @@ h6 {
     width: 7px;
     height: 7px;
     border-radius: 50%;
-    border: 2.5px solid #17a2b8;
+    border: 2.5px solid var(--borderColor);
     background-color: #fff;
     position: absolute;
 }
@@ -332,7 +332,7 @@ h6 {
 
     height: 400px;
     overflow: hidden;
-    background-color: #fff;
+    background-color: var(--secondaryColor);
 }
 
 .thumbnail {
@@ -343,17 +343,17 @@ h6 {
 }
 
 .post-preview {
-    background-color: #fff;
+    background-color: var(--secondaryColor);
     padding: 15px;
 }
 
 .post-title {
-    color: black;
+    color: var(--mainText);
     margin: 0;
 }
 
 .post-intro {
-    color: #4b5156;
+    color: var(--secondaryText);
     font-size: 14px;
 }
 
