@@ -89,6 +89,7 @@ h6 {
 .greeting-wrapper {
     display: grid;
     text-align: center;
+    text-align: center;
     align-content: center;
     min-height: 10em;
 }
@@ -275,6 +276,30 @@ h6 {
 #corner-bl {
     bottom: -5px;
     left: -5px;
+}
+
+.about-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    padding-top: 50px;
+    padding-bottom: 50px;
+    gap: 100px;
+}
+
+#skills {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: var(--previewShadow);
+}
+
+.social-links {
+    display: grid;
+    align-content: center;
+    text-align: center;
+}
+
+#social_img {
+    width: 100%;
 }
 
 @media screen and (max-width: 1200px) {
