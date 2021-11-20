@@ -21,6 +21,10 @@ body {
     margin: 0;
 }
 
+body * {
+    transition: all 0.3s;
+}
+
 h1,
 h2,
 h3,
@@ -124,6 +128,10 @@ h6 {
     border-radius: 5px 5px 0 0;
 }
 
+#navigation a {
+    color: var(--mainText);
+}
+
 #navigation {
     margin: 0;
     padding: 10px;
@@ -202,7 +210,7 @@ h6 {
 }
 
 .theme-dot:hover {
-    border: 5px solid black;
+    border: 5px solid var(--themeDotBorder);
 }
 
 #light-mode {
