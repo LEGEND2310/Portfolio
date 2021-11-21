@@ -1,7 +1,7 @@
 let theme = localStorage.getItem('theme');
 
 if(theme == null){
-    document.getElementById('theme-style').href = `light.css`;
+    document.getElementById('theme-style').href = `default.css`;
 }else{
     document.getElementById('theme-style').href = `${theme}.css`;
 }
