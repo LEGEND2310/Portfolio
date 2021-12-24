@@ -399,6 +399,34 @@ h6 {
     color: #fff;
     background-color: var(--buttonColor);
     border: none;
+    border-radius: 5px;
+}
+
+.back-to-top {
+    position: fixed;
+    right: 2rem;
+    bottom: 2rem;
+    border-radius: 50%;
+    background-color: var(--buttonColor);
+    padding: 0.5rem;
+    border: none;
+    cursor: pointer;
+    opacity: 100%;
+    transition: opacity 0.5s;
+}
+
+.back-to-top:hover {
+    opacity: 60%;
+}
+
+.back-to-top-icon {
+    width: 1rem;
+    height: 1rem;
+    color: var(--previewShadow);
+}
+
+.hidden {
+    opacity: 0%;
 }
 
 @media screen and (max-width: 1200px) {
